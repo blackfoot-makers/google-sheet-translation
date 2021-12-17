@@ -1,7 +1,7 @@
 {
   "name": "@blackfoot/google-sheet-translation",
   "packageManager": "yarn@3.1.1",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Use google-sheet to generate translations files",
   "main": "index.js",
   "scripts": {

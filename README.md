@@ -1,6 +1,8 @@
 # Google Sheet Translation
 
-Package use to generate json files from google sheet to be used as translation files in application
+> Package use to generate json files from google sheet to be used as translation files in application
+
+[![NPM version](https://img.shields.io/npm/v/@blackfoot/google-sheet-translation)](https://www.npmjs.com/package/@blackfoot/google-sheet-translation)
 
 ## Usage
 
