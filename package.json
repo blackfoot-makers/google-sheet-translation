@@ -1,13 +1,15 @@
 {
   "name": "@blackfoot/google-sheet-translation",
   "packageManager": "yarn@3.1.1",
-  "version": "1.0.0",
+  "version": "1.0.5",
   "description": "Use google-sheet to generate translations files",
   "main": "index.js",
   "scripts": {
-    "compile": "tsc"
+    "prepublish": "yarn clean && yarn tsc",
+    "prepublishOnly": "yarn prepublish",
+    "clean": "yarn dlx rimraf index.js indexType.js",
+    "test": "tsc && node test.js"
   },
-  "prepublish": "yarn compile",
   "repository": {
     "type": "git",
     "url": "git@github.com:blackfoot-makers/google-sheet-translation.git"

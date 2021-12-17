@@ -15,7 +15,7 @@ const sync = async ({ spreadSheetId, pathMessages, googleApiKey, tabIndex = 0 }:
   }
   const sheet = new GoogleSpreadsheet(spreadSheetId);
   sheet.useApiKey(googleApiKey);
-  const toIgnores = ['key', '_xml', 'save', 'del', '_links', 'id'];
+  const toIgnores = ['key', '_xml', 'save', 'del', '_links', 'id', '_rawData', '_sheet', '_rowNumber'];
 
   const getTabs = async () => {
     try {

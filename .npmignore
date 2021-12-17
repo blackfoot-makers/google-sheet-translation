@@ -104,18 +104,13 @@ dist
 .tern-port
 
 # Generated files
-*.js
-!test.js
 src/i18n/*.json
 
 # Vs-code
 .editorconfig
+.vscode
 
 # Yarn
 .pnp.*
-.yarn/*
-!.yarn/patches
-!.yarn/plugins
-!.yarn/releases
-!.yarn/sdks
-!.yarn/versions
+.yarn*
+

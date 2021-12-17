@@ -5,6 +5,19 @@ __metadata:
   version: 5
   cacheKey: 8
 
+"@blackfoot/google-sheet-translation@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "@blackfoot/google-sheet-translation@workspace:."
+  dependencies:
+    "@types/google-spreadsheet": ^3.1.5
+    "@types/jsonfile": ^6
+    "@types/node": ^17.0.0
+    google-spreadsheet: ^3.2.0
+    jsonfile: ^6.1.0
+    typescript: ^4.5.4
+  languageName: unknown
+  linkType: soft
+
 "@types/google-spreadsheet@npm:^3.1.5":
   version: 3.1.5
   resolution: "@types/google-spreadsheet@npm:3.1.5"
@@ -185,19 +198,6 @@ __metadata:
   checksum: 50456e1a7353e5c916940bb34b1b04e337311c6ad4dd39b97e03d19b14dbd187d3eb9d8d217672a87da063527e6e78f494cdee33cf9e0faaf81fee0d3f8722ca
   languageName: node
   linkType: hard
-
-"google-sheet-translation@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "google-sheet-translation@workspace:."
-  dependencies:
-    "@types/google-spreadsheet": ^3.1.5
-    "@types/jsonfile": ^6
-    "@types/node": ^17.0.0
-    google-spreadsheet: ^3.2.0
-    jsonfile: ^6.1.0
-    typescript: ^4.5.4
-  languageName: unknown
-  linkType: soft
 
 "google-spreadsheet@npm:^3.2.0":
   version: 3.2.0
